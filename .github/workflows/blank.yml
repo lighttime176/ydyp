@@ -30,6 +30,6 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run python code
       run: |
-        python action_testip.py
+        python ydyp.py
       env:
         ydyp: ${{ secrets.ydyp }}
