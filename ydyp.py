@@ -14,7 +14,8 @@ import time
 
 import requests
 
-cookies = os.getenv("ydyp")
+#cookies = os.getenv("ydyp")
+cookies = os.environ.get("ydyp")
 ua = 'com.ss.android.ugc.live/250301 (Linux; U; Android 10; zh_CN; MI 8; Build/QKQ1.190828.002; Cronet/TTNetVersion:8e43839d 2023-03-22 QuicVersion:6ea2111b 2023-03-16)'  
 note_token = 'djF8dDF8OUVCNDlEMzAwMzI0NEI2N0Y1QUE3MzYzOTA4NDU1RUU4RkU5MkM4MEQ0NUM5MDkwMUMxOENBNThGQTgzQzRBRUJGM0QzRTQwRjI0MTBCODZFNjBDQjU3QUMyMTlDMDlE'
 note_auth = 'Basic MTcyNjIxMjU2NDA6cXZGcVF0a0V8MXxSQ1N8MTY5NjM0MjM1NjI4M3xIRTJma1ZEdmVXMnQ4UWV3anpGMFNRWlEueWtpZTR5SkRscS5lc2lXZTg1ejgxeEJHeEVIV3Mxa3Q1RWJuWGY3aWtMZEtBX2gubXdILkU1TUtjUy5JR0FCUG1iU1BibjByUXIxaUIyNUsxNHJoWnNYTHk1WmlkVVpfMFVtb1UxMTFGWVN1NzJHbXJDMlNlMDFqclZncFVsOTVDOGpMQzF3S2Jldnd4bjZrX3Mt'
